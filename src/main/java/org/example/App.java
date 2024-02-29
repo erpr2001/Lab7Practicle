@@ -11,12 +11,16 @@ public class App
         System.out.println( "Hello World!" );
     }
     public static String fb(int i){
-        if (i % 3 == 0) {
-            return "Fizz";
+        if (i% 3==0&& i%5==0) {
+            return "FizzBuzz";
         }
-        if (i % 5 == 0){
+        else if (i % 3 == 0) {
+                return "Fizz";
+            }
+
+        else if (i % 5 == 0){
             return "Buzz";
         }
-        return Integer.toString(i);
+        else return Integer.toString(i);
     }
 }
