@@ -11,7 +11,9 @@ public class App
         System.out.println( "Hello World!" );
     }
     public static String fb(int i){
-
+        if (i % 3 == 0) {
+            return "Fizz";
+        }
         return Integer.toString(i);
     }
 }
