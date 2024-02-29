@@ -8,7 +8,11 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+
+        for (int i = 1; i <= 100; i++) {
+            System.out.println(fb(i));
+        }
+//        System.out.println( "Hello World!" );
     }
     public static String fb(int i){
         if (i% 3==0&& i%5==0) {
