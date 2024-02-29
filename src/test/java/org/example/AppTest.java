@@ -40,5 +40,6 @@ public class AppTest
 
     public void testFb(){
         assertEquals("1", fb(1));
+        assertEquals("Fizz", fb(3));
     }
 }
